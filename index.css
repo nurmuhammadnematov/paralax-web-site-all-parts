@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+*:focus{
+    border: dashed 3px #fff;
+    border-radius: 8px;
+    outline-offset: 1px;
+}
+.main__link {
+    text-decoration: none;
+}
+.oxford__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/oxford-university.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.oxford__main h2 {
+    background-color: rgba(82, 56, 7, 0.2);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(236, 210, 175);
+    padding: 10px 50px; 
+    font-size: 40px;
+}
+.oxford__bottom {
+    background-image: linear-gradient(rgba(50, 113, 180, 0.473), rgba(119, 65, 35, 0.652));
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+.oxford__bottom h3 {
+    padding: 10px 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.oxford__bottom p {
+    margin-bottom: 0;
+    padding: 0 10px 10px 10px;
+}
+
+
+.harvard__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/harvard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -1px;
+    background-attachment: fixed;
+}
+.harvard__main h2 {
+    background-color: rgba(70, 17, 4, 0.2);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px; 
+    font-size: 40px;
+}
+.harvard__bottom {
+    background-image: linear-gradient( to top, rgba(214, 156, 48, 0.473), rgba(119, 65, 35, 0.652));
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+.harvard__bottom h3{
+    padding: 10px 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.harvard__bottom p{
+    margin-bottom: 0;
+    padding: 0 10px 10px 10px;
+}
+
+
+
+.stanford__main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/Stanford.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.stanford__main h2{
+    background-color: rgba(153, 118, 20, 0.465);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px; 
+    font-size: 40px;
+}
+.stanford__bottom{
+    background-image: linear-gradient(to top, rgba(200, 174, 101, 0.473), rgba(160, 115, 33, 0.652));
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.stanford__bottom h3 {
+    padding: 10px 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.stanford__bottom p {
+    margin-bottom: 0;
+    padding: 0 10px 10px 10px;
+}
+
+.colombia__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/colombia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -10px;
+    background-attachment: fixed;
+}
+.colombia__main h2 {
+    background-color: rgba(153, 118, 20, 0.465);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    padding: 10px 50px; 
+    font-size: 40px;
+}
+.colombia__bottom{
+    background-image: linear-gradient( rgba(200, 174, 101, 0.473), rgba(160, 115, 33, 0.652));
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.colombia__bottom h3 {
+    padding: 10px 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.colombia__bottom p {
+    margin-bottom: 0;
+    padding: 0 10px 10px 10px;
+}
+
